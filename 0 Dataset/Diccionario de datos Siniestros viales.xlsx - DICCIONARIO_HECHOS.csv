@@ -1,0 +1,47 @@
+variables y definiciones,descripción,
+ID,identificador unico del siniestro,
+N_VICTIMAS,cantidad de víctimas,
+FECHA,fecha en formato dd/mm/aaaa,
+AAAA,año,
+MM,mes,
+DD,día del mes,
+HORA,hora del siniestro,
+HH,franja horaria entera,
+LUGAR_DEL_HECHO,Dirección del hecho,
+TIPO_DE_CALLE,Tipo de arteria. En el caso de intersecciones a nivel se clasifica según la de mayor jerarquía,
+Calle,nombre de la arteria donde se produjo el hecho,
+Altura,altura de la arteria donde se produjo el hecho,
+Cruce,cruce en caso de que sea una encrucijada,
+Dirección Normalizada,direccion en formato normalizado USIG,
+COMUNA,Comuna de la ciudad (1 a 15),
+XY (CABA),geocodificación plana,
+pos x,longitud con separador punto. WGS84,
+pos y,latitud con separador punto. WGS84,
+PARTICIPANTES,conjunción de víctima y acusado,
+VICTIMA,"Vehículo que ocupaba quien haya fallecido a se haya lastimado a raíz del hecho, o bien peatón/a. Clasificación agregada del tipo de vehículos.",
+ACUSADO,"Vehículo que ocupaba quien resultó acusado/a del hecho, sin implicar culpabilidad legal",
+,,
+Variables,valores,descripción
+TIPO_DE_CALLE,calle,Arteria cuya calzada tiene un ancho comprendido entre cinco (5) y trece (13) metros. Inlcluye pasajes.
+,avenida,Arteria cuya calzada tiene un ancho total de por lo menos trece (13) metros.
+,autopista,"Vía multicarril con calzadas para ambas manos separadas físicamente, sin cruces a nivel, con accesos controlados y sin ingreso directo desde los predios frentistas lindantes. Incluye AU 25 de mayo, AU Perito Moreno, AU Dellepiane, Av Lugones, Av. Cantilo, AU Frondizi, AU Buenos Aires - La Plata en el tramo que circula dentro de la Ciudad de Buenos Aires y Paseo del Bajo. Incluye ingresos y egresos de las mismas y distribuidores."
+,general paz,"Avenida General Paz, ambos sentidos. Incluye ingresos y egresos de las mismas, distribuidores y calle colectora."
+VICTIMA,PEATON,"Víctima distinta de cualquier ocupante de un vehículo, ya sea un conductor/a o un pasajero/a. Se incluyen los ocupantes o personas que empujan o arrastran un coche de bebé o una silla de ruedas o cualquier otro vehículo sin motor de pequeñas dimensiones. Se incluyen también las personas que caminan empujando una bicicleta o un ciclomotor."
+,MOTO,"Vehículo a motor no carrozado que incluye motocicleta, ciclomotor y cuatriciclo."
+,AUTO,"Vehículo a motor destinado al transporte de personas, diferente de los motovehículos, y que tenga hasta nueve plazas (incluyendo al asiento del conductor) (Sedan, SUV, coupe, etc)"
+,CARGAS,"Vehículo a motor destiando al transporte de cargas, incluye camiones pesados (con o sin acoplado o semirremolque, etc., camión de recolección de residuos) y livianos (utilitarios, furgonetas, pick-ups, camioneta con caja de carga)."
+,BICICLETA,"Vehículo con al menos dos ruedas, que generalmente es accionado por el esfuerzo muscular de las personas que lo ocupan, en particular mediante pedales o manivelas. Incluye bicicletas de pedaleo asistido y/o con motor"
+,PASAJEROS,"Personas lesionadas que se encuentran dentro, descendiendo o ascendiendo de las unidades de autotrasporte público de pasajeros/as y ómnibus de larga distancia"
+,MOVIL,"Vehículos de emergencia: móviles policiales, ambulancias, autobombas. "
+,OTRO,otros vehiculos
+,SD,Sin datos sobre el tipo de víctima
+ACUSADO,AUTO,"Vehículo a motor destinado al transporte de personas, diferente de los motovehículos, y que tenga hasta nueve plazas (incluyendo al asiento del conductor) (Sedan, SUV, coupe, etc)"
+,BICICLETA,"Vehículo con al menos dos ruedas, que generalmente es accionado por el esfuerzo muscular de las personas que lo ocupan, en particular mediante pedales o manivelas. Incluye bicicletas de pedaleo asistido y/o con motor"
+,CARGAS,"Vehículo a motor destiando al transporte de cargas, incluye camiones pesados (con o sin acoplado o semirremolque, etc., camión de recolección de residuos) y livianos (utilitarios, furgonetas, pick-ups, camioneta con caja de carga)."
+,MOTO,"Vehículo a motor no carrozado que incluye motocicleta, ciclomotor y cuatriciclo."
+,OBJETO FIJO,"Colisión contra objetos inmóviles fijados de manera permanente o semipermanente (columna, árbol, semáforo, etc.) o pérdidas de equilibrio de vehículos de dos ruedas que desencadenen la caída de sus ocupantes."
+,PASAJEROS,"Personas lesionadas que se encuentran dentro, descendiendo o ascendiendo de las unidades de autotrasporte público de pasajeros/as y ómnibus de larga distancia"
+,TREN,Equipo móvil que se desplaza exclusivamente sobre rieles
+,OTRO,otros vehiculos
+,SD,Sin datos sobre el vehículo participante
+PARTICIPANTES,MULTIPLE,cuando participan más de un vehículo como contraparte de la víctima.
