@@ -153,10 +153,10 @@ La mayoria de los siniestros ocurren en Avenidas.
 
 En el análisis podemos observar diferentes caracteristicas de las victimas y patrones temporales
 
-- ortalecer la educación vial:
+- Fortalecer la educación vial:
   - Implementar programas de educacion vial obligatorios y continuos en escuelas y centros de formación de conductores.
   - Realizar campañas de concientizacion masivas sobre seguridad vial, enfocadas en conductas de riesgo (exceso de velocidad, conduccion bajo efectos de alcohol o drogas y distracción al volante)
-- Mejorar la infraestructura vial:
+- Mejorar la infraestructura vial principalmente en las avenidas:
   - Realizar una evaluacion exhaustiva de las vías más propensas a accidentes y mejorar la señalizacion, iluminación y diseño de las mismas.
   - Construir más carriles exclusivos para motocicletas y cruces peatonales seguros.
   - Implementar tecnologías de tráfico inteligente, com sistema de monitoreo y control de semáforos adaptativos.
@@ -166,7 +166,8 @@ En el análisis podemos observar diferentes caracteristicas de las victimas y pa
 - Proteger a los usuarios vulnerables:
   - Implementar medidas para motociclistas, como campañas de uso obligatorio de cascos, chalecos reflectantes y capacitación de conducción defensiva.
   - Promover el uso de elementos de seguridad pasiva, como airbags, sistemas de frenado avanzado
-- Fomentar altenativas sostenibles de transporte:Explorar alternativas de movilidad compartida y autónoma, que puedan reducir el tráfico y los riesgos asociados.
+- Fomentar altenativas sostenibles de transporte:
+  - Explorar alternativas de movilidad compartida y autónoma, que puedan reducir el tráfico y los riesgos asociados.
 - Recopilar y analizar datos de manera continua:
   - Establecer un sistema robusto de recopilación y análisis de datos relacionados con siniestros viales, incluyendo factores como ubicación, hora, tipo de vehículom causas y consecuencias.
   - Relizar análisis predictivos y estudios de alto impacto para evaluar la efectividad de las medidas implementadas y ajustar las estrategias según sea necesario.
