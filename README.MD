@@ -94,15 +94,9 @@ El codigo usado en esta parte del proceso se encuentra **[ACA](https://github.co
 
 ### Dashboard en Power Bi
 
-GIF 1
+![1717557294927](image/README/1717557294927.png)
 
-GIF 2
-
-GIF 3
-
-GIF 4
-
-GIF 5
+![1717557363993](image/README/1717557363993.png)
 
 ---
 
