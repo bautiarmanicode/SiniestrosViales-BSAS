@@ -92,14 +92,6 @@ El codigo usado en esta parte del proceso se encuentra **[ACA](https://github.co
 
 ---
 
-### Dashboard en Power Bi
-
-![1717557294927](image/README/1717557294927.png)
-
-![1717557363993](image/README/1717557363993.png)
-
----
-
 ### 📈 Descubrimientos EDA
 
 El análisis exploratorio de datos permitió extraer información valiosa sobre tendencias y patrones de homicidios en accidentes de tránsito, fundamentales para desarrollar recomendaciones y políticas que mejoren la seguridad vial.
@@ -145,23 +137,15 @@ La mayoria de los siniestros ocurren en Avenidas.
 
 ### KPI (Indicador Clave de Desempeño)
 
-* ***Definición:** Un KPI es una métrica específica que evalúa el desempeño en relación con un objetivo estratégico. Son las métricas más importantes que reflejan el éxito del negocio en lograr sus objetivos clave.*
-* *Mide el éxito o la eficacia en el logro de metas estratégicas específicas.*
-* A diferencia de una metrica que mide cuantitativamente un proceso o resultado especifico.
+* Un KPI (Key Performance Indicator) es una métrica que mide el rendimiento de un proceso o actividad en relación con un objetivo estratégico predefinido. A diferencia de una métrica convencional, un KPI está diseñado para mostrar el progreso hacia un objetivo específico y, por lo tanto, suele incluir un valor objetivo o umbral.
 * **KPI 1: Reducir en un 10% la tasa de homicidios en siniestros viales en los últimos seis meses en comparación con el semestre anterior**
 
   * **Tasa de homicidios en siniestros viales** : Número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes.
   * Fórmula: (Número de homicidios en siniestros viales / Población total) * 100,000
-
-  ![1717553245480](image/README/1717553245480.png)
 * **KPI 2: Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año respecto al año anterior** .
 
   * **Cantidad de accidentes mortales de motociclistas** : Número absoluto de accidentes fatales con víctimas en moto.
   * Fórmula: (Accidentes mortales de motociclistas del año anterior - Accidentes mortales de motociclistas del año actual) / Accidentes mortales de motociclistas del año anterior * 100
-
-![1717553225229](https://file+.vscode-resource.vscode-cdn.net/c%3A/BAU/%F0%9F%AA%A8%20OBSIDIAN/HENRY%20DATA/0_%20HENRY/1%20REPOSITORIOS%20GITHUB%20NO%20BORRAR/2%20Siniestros%20viales/Siniestros%20Viales/Mi%20proyecto/SiniestrosViales-BSAS/image/README/1717553225229.png)
-
-La explicacion de los codigos utilizados para los **KPIS** se encuentra **[ACA](https://github.com/bautiarmanicode/SiniestrosViales-BSAS/blob/main/1%20Jupiter%20Notebook/KPIS.md)**.
 
 ---
 
@@ -169,7 +153,7 @@ La explicacion de los codigos utilizados para los **KPIS** se encuentra **[ACA](
 
 En el análisis podemos observar diferentes caracteristicas de las victimas y patrones temporales
 
-- Fortalecer la educación vial:
+- ortalecer la educación vial:
   - Implementar programas de educacion vial obligatorios y continuos en escuelas y centros de formación de conductores.
   - Realizar campañas de concientizacion masivas sobre seguridad vial, enfocadas en conductas de riesgo (exceso de velocidad, conduccion bajo efectos de alcohol o drogas y distracción al volante)
 - Mejorar la infraestructura vial:
