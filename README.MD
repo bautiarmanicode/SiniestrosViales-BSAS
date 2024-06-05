@@ -83,16 +83,6 @@ El codigo usado en esta parte del proceso se encuentra **[ACA](https://github.co
 
 ---
 
-### 📈 **Impacto del EDA:**
-
-El análisis exploratorio de datos permitió extraer información valiosa sobre tendencias y patrones de homicidios en accidentes de tránsito, fundamentales para desarrollar recomendaciones y políticas que mejoren la seguridad vial.
-
-🚀 **Conclusión:**
-
-Este proyecto busca no solo analizar datos históricos, sino también proporcionar una base sólida para acciones futuras que mejoren la seguridad vial en la Ciudad de Buenos Aires, salvando vidas y mejorando la calidad de vida de sus habitantes.
-
----
-
 ### Estructura de navegación de los archivos:
 
 * **📂 /0 Dataset/**: Contiene las bases de datos utilizadas para este proyecto
@@ -116,9 +106,15 @@ GIF 5
 
 ---
 
-### Descubrimientos EDA
+### 📈 Descubrimientos EDA
 
-Voy a compartir los descubrimientos mas relevantes que encontre: 
+El análisis exploratorio de datos permitió extraer información valiosa sobre tendencias y patrones de homicidios en accidentes de tránsito, fundamentales para desarrollar recomendaciones y políticas que mejoren la seguridad vial.
+
+🚀 **Conclusión:**
+
+Este proyecto busca no solo analizar datos históricos, sino también proporcionar una base sólida para acciones futuras que mejoren la seguridad vial en la Ciudad de Buenos Aires, salvando vidas y mejorando la calidad de vida de sus habitantes.
+
+Voy a compartir los descubrimientos mas relevantes que encontre:
 
 - Mientras más joven es el hombre es mas propenso a accidentes.
 - Mientras que en las mujeres esto es mucho mas uniforme.
@@ -126,7 +122,6 @@ Voy a compartir los descubrimientos mas relevantes que encontre:
 ![1717548260510](image/README/1717548260510.png)
 
 - En general los hombres son los mas accidentados, siendo los conductores y los peatones los principales afectados.
-
 - En el caso de las mujeres, las mas afectadas son las peaton, seguidos de los pasajero_acompañante.
 
 ![1717548313881](image/README/1717548313881.png)
@@ -153,8 +148,6 @@ La mayoria de los siniestros ocurren en Avenidas.
 ![1717548628647](image/README/1717548628647.png)
 
 ---
-
-
 
 ### KPI (Indicador Clave de Desempeño)
 
